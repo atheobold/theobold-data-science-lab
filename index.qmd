@@ -1,0 +1,21 @@
+---
+about:
+  template: broadside
+  image: images/allison-horst-black.jpg
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/Dr-T-Research-Lab
+title: Dr. Theobold's<br>Data Science Research Group
+---
+
+Welcome to Dr. T's (Theobold) research lab! Our research lab is comprised of
+undergraduate and master's student researchers from the Department of Statistics
+at Cal Poly. Our research group is interested in researching students' classroom
+experiences and how these experiences affect various aspects of their affect
+toward statistics and data science. 
+
+Interested in what we're currently working on? Check out our current [projects](projects.qmd). Are you a current or prospective student at Cal 
+Poly? Consider [joining us](join-us.qmd)!
+
+<br><br><br><br><br><br><br><br><br>
