@@ -3,6 +3,7 @@ title: "Join Us"
 about:
   template: trestles
   image: images/horst-hex.svg
+  image-width: 25em
 ---
 
 Some things that will make it easier for you to quickly transition into our lab:

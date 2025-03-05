@@ -8,13 +8,13 @@ listing:
 ::: {style="text-align: center;"}
 ## Principle Investigator
 
-![](https://atheobold.github.io/media/full-body-shot.jpg){width="33%"}
-:::
+![](https://atheobold.github.io/media/full-body-shot.jpg){width=20em}
 
 ### [Allison Theobold](https://atheobold.github.io/)
 
 Assistant Professor
 Department of Statistical Sciences
+:::
 
 ## Students
 
