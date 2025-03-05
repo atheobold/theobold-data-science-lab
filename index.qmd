@@ -1,7 +1,10 @@
 ---
+image: images/allison-horst-black.jpg
+toc: false
+editor: source
 about:
-  template: broadside
-  image: images/allison-horst-black.jpg
+  image-width: 35em
+  template: solana
   links: 
     - icon: github
       text: Github
