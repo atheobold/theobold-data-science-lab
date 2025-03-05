@@ -1,80 +1,80 @@
 [
   {
-    "objectID": "people/sophia-fang/index.html",
-    "href": "people/sophia-fang/index.html",
-    "title": "Sophia Fang",
+    "objectID": "people/otis-hunt/index.html",
+    "href": "people/otis-hunt/index.html",
+    "title": "Otis Hunt",
     "section": "",
-    "text": "Hello! My name is Sophia Fang. I am a junior double majoring in Computer Science and Mathematical Statistics, minoring in Japanese. I am passionate about interdisciplinary studies, which not only allows me to continuously acquire new skills, but also allows me to utilize the knowledge from my major to solve problems in a variety of fields in the real world. Outside of class, I enjoy playing piano, cooking, and traveling. My next destination is (hopefully) Czechia.\n\n\n\nInterests\n\nR programming\nApplied Statistics\nMachine Learning\n\n\n\n\n Education\nWake Forest University\nB.A. in Mathematical Statistics and B.S. in Computer Science, 2022"
+    "text": "I’m Otis from Marin County, CA, and I’m studying Statistics while working towards the Data Science minor. Currently, I am working with Dr. T to create stronger surveys that adjust the standard Likert-scale multiple choice surveys to improve the data quality of survey responses while decreasing the subjective cognitive load of the respondents. Next, we are looking to examine free-response questions and their purpose in educational and groupwork related surveys. In this genre of projects, our goal is to improve the survey experience for both the surveyors and the respondents so that you don’t have to feel bored the next time you take a survey.\nIn my free time, you can catch me playing intramural sports, rock climbing, and listening to music too loud.\n\n\n\n Interests\n\nR & Python\nSurvey Design\nText Analysis\n\n\n\n\n Education\nCal Poly\nB.S. in Statistics & Minor in Data Science, 2027"
   },
   {
-    "objectID": "people/james-zhao/index.html",
-    "href": "people/james-zhao/index.html",
-    "title": "James Zhao",
+    "objectID": "lab-protocol.html",
+    "href": "lab-protocol.html",
+    "title": "DEAL Lab Book",
     "section": "",
-    "text": "Hello! I’m James Zhao, currently a junior double major in Mathematical Statistics and Computer Science at Wake Forest University. I’m passionate about implementing statistical and computational analytics technique to solving real-world problems across industries, which not only builds a fundamental cognition of multiple industries in the world but also acquires the skills and knowledges that are particularly significant within the industry.\n\n\n\nInterests\n\nR programming\nApplied Statistics\nMachine Learning\nData Science\nPython\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematical Statistics and B.A. in Computer Science, class of 2025"
+    "text": "Welcome to the Data Ethnography and Advocacy Lab Book! Here we outline the values that guide our work, group roles and responsibilities, protocols for facilitating meetings, guidelines for documenting our work, and expectations on group conduct.\nThese protocols are inspired from the work of several groups that inspire us - in particular the Carceral Ecologies Lab Book, the CLEAR Lab Book, the Aly Lab Manual, the PECE Design Team Protocols, and the Energy Rights Project Protocols. In-text citations are provided throughout the document where text is drawn directly from these sources documents. Full citations of these resources are listed in the References section.\nFurther, the protocols are continuously being collectively (re)authored as new members join the group."
   },
   {
-    "objectID": "people/ives-xue/index.html",
-    "href": "people/ives-xue/index.html",
-    "title": "Ives Xue",
+    "objectID": "lab-protocol.html#introduction",
+    "href": "lab-protocol.html#introduction",
+    "title": "DEAL Lab Book",
     "section": "",
-    "text": "My name is Ives Xue, and my current majors are Applied Mathematics and Economics. I like to combine what I have learnt in class to practical uses, and I really enjoy inter-discipline research. Theories are fun for me, but practical uses are the true reasons behind my major choices. I am discovering research areas that I might be interested in. Now my top choices are biostatistics, causal inference and dynamic systems.\n\n\n\nInterests\n\nbiostatistics\ncausal inference\ndynamic systems\n\n\n\n\n Education\nWake Forest University\nB.S. in Applied Mathematics and B.A. in Economics, graduating in 2026."
+    "text": "Welcome to the Data Ethnography and Advocacy Lab Book! Here we outline the values that guide our work, group roles and responsibilities, protocols for facilitating meetings, guidelines for documenting our work, and expectations on group conduct.\nThese protocols are inspired from the work of several groups that inspire us - in particular the Carceral Ecologies Lab Book, the CLEAR Lab Book, the Aly Lab Manual, the PECE Design Team Protocols, and the Energy Rights Project Protocols. In-text citations are provided throughout the document where text is drawn directly from these sources documents. Full citations of these resources are listed in the References section.\nFurther, the protocols are continuously being collectively (re)authored as new members join the group."
   },
   {
-    "objectID": "people/Nuri-Park/index.html",
-    "href": "people/Nuri-Park/index.html",
-    "title": "Nuri Park",
-    "section": "",
-    "text": "Hello! I am an undergraduate student at Wake Forest University majoring in B.S. Mathematical Statistics with double minors in chemistry, and health policy and administration. I am thrilled to work with Dr. McGowan for my senior thesis on developing the best way to teach R in classroom settings using randomized controlled trial.\nI am passionate about utilizing big data and statistics to minimize health disparities and to improve the public health system in order to establish health equity in the U.S. In a data-driven world, I hope to use statistics as a solid ground to analyze problems that lead to the “gap” of health care. With such skills, I believe I can contribute to break the barriers of numbers and to develop the community where data has transformed into insight.\n\n\n\nInterests\n\nR programming\nBiostatistics and Epidemiology\nPublic Health\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematical Statistics, 2021"
+    "objectID": "lab-protocol.html#lab-values",
+    "href": "lab-protocol.html#lab-values",
+    "title": "DEAL Lab Book",
+    "section": "Lab Values",
+    "text": "Lab Values\n\nCompassion\nIn this group, we care about each other, not just in our work lives, but also as individuals that have lives outside of this work. We encourage our collaborators to prioritize their personal health and well-being before our research, and we respect each other’s personal boundaries. We strive to embody kindness in all of our interactions with each other, and attempt to show up for each other in moments of distress. We honor each other’s identities and backgrounds.\n\n\nCommunity\nIn this group, we strive to foster a supportive research environment. We show respect for each other’s time by setting clear expectations on project timelines, roles, progress, and issues. We assess progress towards goals often, adjust our expectations when necessary, and offer flexibility/wiggle room when unexpected circumstances come up. We make an effort to coordinate our work with an understanding that we all have unique work styles. We consistently keep lines of communication open, especially when things are not going as planned or when conflicts arise. We work to develop trust in each other by following through on commitments and showing respect for each other’s ideas - both in moments when we are in agreement and in moments when we are offering critique. We offer mentorship in cases when we have specialized knowledge to share, and we acknowledge the unique knowledge that everyone in the group brings to the collaboration. We celebrate each other’s successes and hype each other up in moments when we feel discouraged. We strive for consensus in our decision-making and understand that this, at times, requires compromise.\n\n\nGrit\nIn this group, we work hard toward our goals. We are proactive problem-solvers, taking initiative in order to persevere as challenges arise. We set the intention to follow through on our commitments. We recognize the significance of diverse kinds of labor - from the most tedious and monotonous to the most innovative and creative.\n\n\nPurpose\nIn this group, we work towards a collective vision of advancing social and environmental equity, justice, and accountability through improvements to data infrastructure. We are transparent about the social and political aims of our work to newcomers and in public presentations of the work. We seek out opportunities to advocate on behalf of interventions that align with our collective vision. We prioritize our collective vision when making decisions about who will be invited to participate in the work, which groups we will seek input from, what resources we will accept/leverage to support the work, and through what channels the work will be disseminated.\n\n\nIntegrity\nIn this group, we are committed to presenting our work with honesty and context. We value reflexivity in our research practice. We acknowledge what we don’t know, can’t know (due to our unique positionality), or have yet to learn. We listen carefully, especially to perspectives held by those with cultural identities we do not share, and are willing to have assumptions challenged. We admit mistakes, learn from them, and then move on from them."
   },
   {
-    "objectID": "people/kiyo-takahashi/index.html",
-    "href": "people/kiyo-takahashi/index.html",
-    "title": "Kiyo Takahashi",
-    "section": "",
-    "text": "Hello! My name is Kiyo Takahashi. I am a senior majoring in Applied Statistics and double minoring in Mathematics and Computer Science. I am interested and curious about data science and am using this opportunity to learn more about research and see if this is a future career path for me. Outside of class, I enjoy being involved in my campus ministry, cooking, and crocheting.\n\n\n\nInterests\n\nApplied Statistics\nDemographics\nData Science\n\n\n\n\n Education\nWake Forest University\nB.S. in Appled Statistics, 2024"
+    "objectID": "lab-protocol.html#roles-and-responsibilities",
+    "href": "lab-protocol.html#roles-and-responsibilities",
+    "title": "DEAL Lab Book",
+    "section": "Roles and Responsibilities",
+    "text": "Roles and Responsibilities\n\nJoining the Lab\nWe are thrilled to invite new members to the lab. When joining the lab, you should do the following:\n\nRead this lab book.\nEmail Lindsay or the Lead Mentor and ask to be added to our Slack Workspace. Check out this tutorial if you are new to Slack.\nJoin the #onboarding Slack channel, and follow the instructions in Lindsay’s October 4, 2021 post.\nJoin Slack channels related to the projects you will be working on and read recent correspondence in these channels. Configure your Slack notifications in these channels.\nCreate a GitHub account, and send Lindsay your GitHub handle.\nCreate a Zotero account here and install both Zotero and Zotero Connector here here. Send Lindsay or the Lead Mentor your Zotero username so they can add you to our shared Zotero account. Then watch this video, introducing Zotero.\nAsk Lindsay to be added to the shared Google Drive. See if you can find your work folder for this semester.\n\nComplete CITI Training here (Navigate to Required Online Ethics Training and follow instructions). You should complete the Basic Human Subjects - Social and Behavioral Course. Send me a copy of your certificate upon completion.\nSend Lindsay a headshot and short biography so that you can be added to the Lab website.\n\n\n\nFaculty Responsibilities\n\nThis section draws heavily from the Carceral Ecologies Lab Book and the Aly Lab Manual\n\nAs the director of the Data Ethnography and Advocacy Lab, Lindsay commits to:\n\nSupport you (academically, intellectually, emotionally, financially)\nProvide timely feedback on project ideas, data analysis, writing, and presentations\nReview and approve timesheets on a timely basis\nBe regularly available in person and via email to discuss both lab-related research and other research interests\nSupport your career development (e.g. helping you network with people in the field, introducing you to infrastructures and workflows that may be relevant to your future career, writing recommendation letters, and inviting you to attend conferences when finances permit)\nEnsuring that you are acknowledged for your contributions in all presentations of our work\nEncourage you to prioritize your physical and emotional well-being before other obligations\n\n\n\nStudent Researcher Responsibilities\n\nThis section draws heavily from the Carceral Ecologies Lab Book and the CLEAR Lab Book.\n\nAs a student researcher, you will be expected to:\n\nTake care of your physical and mental well-being first. If you are sick or burnt out, please stay home. If possible, let us know ahead of time that you need to step back. The Schacht Center has a number of resources available to help navigate distressing times.\nAttend weekly lab meetings. Lab meetings are held weekly for one-hour. In these meetings, we discuss how we operate as a lab and as a community, along with our progress on a number of projects. Please let us know ahead of time if you cannot make a meeting via the #general channel on Slack - preferably at least 24 hours in advance (though we recognize this is not always possible). You do not need to explain why you cannot attend a meeting in this message, but please don’t create a habit of missing meetings.\nTake personal initiative with group support. While we collaborate as a team, each individual member of our group has a personal responsibility to ensure that their contributions to the work get done. There will not be a great deal of oversight of your work, so we expect that each member will take steps to manage their time effectively, honestly communicate their capacity to contribute, and let us know if/when they need to re-evaluate their time commitments. To help cultivate and sustain this culture of accountability, all group members are encouraged to support each other by outlining manageable tasks, helping out with tasks in times of struggle (when asked), and respecting a group member’s decision to step back when needed.\nProblem solve when you can. Ask questions when you are unsure. We are all here to help each other navigate this work, and we encourage you to ask questions and request help when it’s needed. Still, attempting to problem solve when you can demonstrates that you value your collaborator’s time, so try that first. If you learn how to do something that might be helpful to others, share it in our Slack Workspace!\nContribute to a caring and collaborative environment. Celebrate each other’s successes, respect each other’s individual strengths and weaknesses, demonstrate compassion for each other’s struggles, and affirm each other’s diverse identities.\nMistakes happen. Admit mistakes, and then move on.\n\n\n\nAssignment of Roles\nRoles get assigned to members of the lab that have already been with us for a full semester. After your first semester as a lab member, you will be expected to take on at least one role per semester. Roles will be assigned during the previous semester’s last lab meeting and will be rotated every semester. Roles will be determined on a volunteer basis and confirmed via group consensus.\nNote-taking will be a shared rotating responsibility. We will maintain a spreadsheet listing who is responsible for note-taking in the Google Drive.\n\nLab Manager\n\nSchedules meetings and sends out meeting reminders\nTakes attendance at all meetings\nPoint person for attendance\nArchives zoom recordings\nManages assets\nManages Kanban\n\n\n\nDocumentation Manager\n\nResponsible for keeping Google Drive organized\nResponsible for ensuring that each GitHub repo meets requirements outlined in the Documentation Guidelines\nMaintains to-do lists on our documentation\n\n\n\nWeb Manager\n\nResponsible for keeping the website up-to-date\nMaintains a blog publishing schedule,\nCollects and edits blog posts from collaborative teams,\nCollaborates with social media manager\n\n\n\nSocial Media Manager\n\nResponsible for finding relevant organizations to network with and follow\nResponsible for posting news stories and videos relevant to our work\nResponsible for advertising blog posts on social media\n\n\n\nLead Mentor\n\nPoint person for new members\nChecks in with new members regularly\nAnswers or directs questions in the #newbies Slack channel\n\n\n\nEvent Manager\n\nMaintains lab calendar\nMain point of contact for guest speakers (managing scheduling, setting up meeting times etc)\nPlans end of semester social event\nMaintains list of lab birthdays and sends birthday cards from the lab\n\n\n\n\nExiting the Lab\nWe understand and respect that you may need to step away from your position in the lab to prioritize attention elsewhere. As advocates for your success, we also celebrate when new opportunities arise! If you need to step away from your position, you should reach out to Lindsay as soon as possible. We will set up a meeting to discuss how you should document the state of your work and to complete a short exit interview."
   },
   {
-    "objectID": "people/hannah-luebbering/index.html",
-    "href": "people/hannah-luebbering/index.html",
-    "title": "Hannah R. Luebbering",
-    "section": "",
-    "text": "Hello! I am an undergraduate at Wake Forest University, majoring in Applied Mathematics with a minor in computer science. I’m thrilled to work with Dr. McGowan’s Data Science Lab on developing the best practices to teach R in both a classroom and online setting using a randomized controlled trial. As a research assistant, I’ve helped build the interactive tutorials on using tidyverse for data analysis and create the randomized trial using shiny and learnr software tools.\nI’m excited to apply my mathematical and coding skills in using big data and technology to solve real-world problems. Overall, my goal is to gain more experience in data science and help develop technological advances to improve other’s quality of life.\n\n\n\nInterests\n\nR programming\nMathematics\nData Science\nData science pedagogy\nShiny\n\n\n\n\n Education\nWake Forest University\nB.S. in Applied Mathematics and Minor in Computer Science, 2021"
+    "objectID": "lab-protocol.html#communication",
+    "href": "lab-protocol.html#communication",
+    "title": "DEAL Lab Book",
+    "section": "Communication",
+    "text": "Communication\n\nSlack\nSlack will be the primary means of lab communication. Here is a link to our Slack Workspace. This Slack channel is on the Smith Enterprise Workspace, meaning that anyone with a Smith email address can immediately be added to this Workspace and view and join all public channels, but guests must be invited and manually added to relevant channels. When posting message, please be sure to post in the relevant channel:\n\n#general: announcements to all group members\n#[project-name]: communication regarding a particular DEAL project\n#support: questions about the group protocols, timesheet reporting, or other group infrastructures\n#cheers: celebrate lab member accomplishments or express gratitude for a lab member’s work\n#random: non-work related conversations\n\nSince Slack is our primary means of communication, you should check Slack regularly. You may wish to install the Slack Desktop application to help keep track of Slack messages. You can also configure Slack to notify you when messages come through on specific channels. You are not expected to respond to Slack messages on evenings and weekends.\n\n\nGitHub\nWhen you join the lab, you will be added to our GitHub organization. There are series of repository templates available for creating new GitHub repositories. We’ve created these templates to ensure consistency across our folder structures and completeness in the contents of our README documents. Please be sure to select the appropriate template before creating a new repo. Reach out to Lindsay if you are unsure of which template is most appropriate."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dr. Theobold’sData Science Research Group",
-    "section": "",
-    "text": "Welcome to Dr. T’s (Theobold) research lab! Our research lab is comprised of undergraduate and master’s student researchers from the Department of Statistics at Cal Poly. Our research group is interested in researching students’ classroom experiences and how these experiences affect various aspects of their affect toward statistics and data science.\nInterested in what we’re currently working on? Check out our current projects. Are you a current or prospective student at Cal Poly? Consider joining us!"
+    "objectID": "lab-protocol.html#lab-meeting-protocols",
+    "href": "lab-protocol.html#lab-meeting-protocols",
+    "title": "DEAL Lab Book",
+    "section": "Lab Meeting Protocols",
+    "text": "Lab Meeting Protocols\nThe general format for all lab meetings is as follow:\n\nOpening: Lab manager disseminates link to meeting notes document and takes attendance. Note-taker is determined by referencing the rotating note-taker schedule in the Drive.\nGroup check-in: Lab manager asks the group check-in question: Where is your head and your heart today? Everyone has an opportunity to respond (round robin style). Members may pass if they choose.\nProject updates: For each project, group members detail what was accomplished since the last meeting, what they plan to accomplish in the coming week, and what is getting in the way of being able to accomplish those tasks. Everyone has an opportunity to ask questions.\nLab check-in: Group members have an opportunity to ask questions or voice concerns about any aspects of lab operations.\nSummary: We close each meeting with the note-taker summarizing to-do list items for the next week."
   },
   {
-    "objectID": "join-us.html",
-    "href": "join-us.html",
-    "title": "Join Us",
-    "section": "",
-    "text": "Some things that will make it easier for you to quickly transition into our lab:\nInterested in joining our lab?"
+    "objectID": "lab-protocol.html#documentation",
+    "href": "lab-protocol.html#documentation",
+    "title": "DEAL Lab Book",
+    "section": "Documentation",
+    "text": "Documentation\n\nLab Meeting Agendas and Meeting Notes\nAll lab meeting agendas and notes will be stored in one running Google Drive document. In this document, each new meeting should be marked with the date of the meeting formatted as ‘Heading 1’. This will ensure each date appears in the document’s table of contents so that we can quickly navigate to those notes. Notes should list who was in attendance at a meeting, along with pertinent information discussed during the meeting.\n\n\nGoogle Drive\nWe maintain a shared Google Drive for all shared lab documents and files that are not hosted in GitHub repositories. This may include:\n\nlab meeting agendas and meeting notes\nlab planning documents\ndatasets that are too large for GitHub storage\ndrafts of collaboratively edited manuscripts, abstracts, or proposals\ndata inventories and quality assurance checklists\nspreadsheets for lab contacts\ntutorials\netc.\n\n\n\nCode and Data Documentation\nFor code and data documentation, we will follow the Hack for California Guidelines (soon to be updated and adapted for our specific work.)"
   },
   {
-    "objectID": "join-us.html#undergraduate-thesis-student",
-    "href": "join-us.html#undergraduate-thesis-student",
-    "title": "Join Us",
-    "section": "Undergraduate thesis student",
-    "text": "Undergraduate thesis student\nIf you are a current undergraduate student at Wake Forest University, we are excited to have you work on one of our projects, or an idea of your own! We will be taking on new students Fall 2022. Spots will be filled on a rolling basis. Fill out this interest form."
+    "objectID": "lab-protocol.html#authorship-acknowledgements",
+    "href": "lab-protocol.html#authorship-acknowledgements",
+    "title": "DEAL Lab Book",
+    "section": "Authorship & Acknowledgements",
+    "text": "Authorship & Acknowledgements\nAs members of the group, you may be asked to participate in the preparation of manuscripts, presentations, or other forms of media presenting our work. As the faculty lab director, it is Lindsay’s responsibility to ensure that:\n\nGroup members are properly acknowledged for their contributions to the group in all presentations of our work.\nOpportunities for authorship and presenting our work are equitably distributed across group members. Note that, while we will always work to value and reward diverse forms of labor in this group, promoting equity in authorship sometimes means prioritizing credit to those that, for a number of reasons, haven’t been able to contribute quite as much as others. See Liboiron, Max, Justine Ammendolia, Katharine Winsor, Alex Zahara, Hillary Bradshaw, Jessica Melvin, Charles Mather, et al. 2017. “Equity in Author Order: A Feminist Laboratory’s Approach.” Catalyst: Feminism, Theory, Technoscience 3 (2): 1–17. https://doi.org/10.28968/cftt.v3i2.28850.\nClear and direct conversations about authorship and acknowledgements are held early in the process and are revisited as necessary as the work progresses."
   },
   {
-    "objectID": "join-us.html#graduate-student",
-    "href": "join-us.html#graduate-student",
-    "title": "Join Us",
-    "section": "Graduate student",
-    "text": "Graduate student\nIf you are a current graduate student at Wake Forest interested in joining our lab fill out this interest form.\nIf you are a prospective graduate student considering attending Wake Forest, send me an email and we can chat more about the program."
+    "objectID": "lab-protocol.html#code-of-conduct",
+    "href": "lab-protocol.html#code-of-conduct",
+    "title": "DEAL Lab Book",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nThis anti-harassment policy is based on the example policy from the Geek Feminism wiki, created by the Geek Feminism community. DEAL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, or religion. We do not tolerate harassment of participants in any form.\n\nThis code of conduct applies to all DEAL spaces, including lab meetings, our Slack Workspace, and our GitHub, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the project director.\nSome DEAL spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules."
   },
   {
-    "objectID": "join-us.html#postdoctoral-fellow",
-    "href": "join-us.html#postdoctoral-fellow",
-    "title": "Join Us",
-    "section": "Postdoctoral fellow",
-    "text": "Postdoctoral fellow\nInformation for prospective postdoctoral fellows coming soon."
+    "objectID": "lab-protocol.html#references",
+    "href": "lab-protocol.html#references",
+    "title": "DEAL Lab Book",
+    "section": "References",
+    "text": "References\nAly Lab. (2021). Aly Lab Manual. Columbia University. https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf\nCarceral Ecologies Lab. (2021). Lab Book (draft version) University of California Los Angeles. https://github.com/Carceral-Ecologies/lab_book\nCLEAR. (2021). CLEAR Lab Book: A living manual of our values, guidelines, and protocols, V.03. St. John’s, NL: Civic Laboratory for Environmental Action Research, Memorial University of Newfoundland and Labrador."
   },
   {
     "objectID": "projects.html",
@@ -84,53 +84,11 @@
     "text": "Current Research Projects\n\n\n\n\n\n\nStatistical communication\n\nWe are examining both how statistics are communicated to the general public and how they may be best perceived.\n\n\n\n\n\n\nGroupworthy Data Science Activities\n\n\n\n\n\n\n\n\nStudents’ Self Perceptions\n\nThis project was led by Jett Palmer, who was interested in exploring how an instructor’s pedagogical methods were associated with aspects of students’ social identities (e.g., disciplinary identity). Jett presented on this research during the 2023 eCOTS Poster Presentations.\n\n\n\n\n\n\n\n\nIncreasing Cognitive Engagement in Surveys\n\nWe are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data."
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "DTRL",
+    "objectID": "join-us.html",
+    "href": "join-us.html",
+    "title": "Join Us",
     "section": "",
-    "text": "Assistant Professor Department of Statistical Sciences"
-  },
-  {
-    "objectID": "people.html#principle-investigator",
-    "href": "people.html#principle-investigator",
-    "title": "DTRL",
-    "section": "",
-    "text": "Assistant Professor Department of Statistical Sciences"
-  },
-  {
-    "objectID": "people/noah-edwards-thro/index.html",
-    "href": "people/noah-edwards-thro/index.html",
-    "title": "Noah Edwards-Thro",
-    "section": "",
-    "text": "Hello! I am an undergraduate at Wake Forest University, double majoring in Mathematical Business and Philosophy. I’m thrilled to work with Dr. McGowan on my senior year thesis, “NBA Player Clustering Using Gaussian Mixture Modeling”.\nI am passionate about utilizing data to improve the product of sports at both a team level and a league level. I additionally have interests in healthcare data science and hope to pursue a career in data science in either health care or sports. After graduating from Wake Forest, I plan to pursue a Master’s in Data Science from the University of Virginia.\nOutside of the classroom I enjoy hiking, watching sports, running, cooking, playing with my dogs, and serving in my church.\n\n\n\nInterests\n\nR Programming\nSports Analytics\nMachine Learning\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematical Business, 2022"
-  },
-  {
-    "objectID": "people/hannah-mendoza/index.html",
-    "href": "people/hannah-mendoza/index.html",
-    "title": "Hannah Mendoza",
-    "section": "",
-    "text": "Storytelling with data is a captivating space for analysis to mingle with design. I’m particularly interested in questions surrounding public communication and journalism. Dr. D’Agostino McGowan and I are exploring best practices in science and public health communication by seeking to answer whether disclosing uncertainty affects the likelihood of the public to accept changing advice from public health officials as new insights form with new evidence.\nI’m an undergraduate mathematics student. I spent last fall learning lots of math (especially probability and combinatorics) in Budapest, and I spent the spring interning at an education technology startup that empowers teachers with insights from data collected in their classrooms. I’m incredibly excited to be spending my senior year diving into data science and statistics via my coursework and DMDS lab!\n\n\n\nInterests\n\nR programming\nHuman-data interaction\nData presentation in journalism\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematics and Computer Science, 2020"
-  },
-  {
-    "objectID": "people/jonathan-trattner/index.html",
-    "href": "people/jonathan-trattner/index.html",
-    "title": "Jonathan D. Trattner",
-    "section": "",
-    "text": "Hello! Thanks for visiting my page. I’m enrolled in a combined B.S./M.S. in Neuroscience program.\nI’m extremely excited to work with Dr. McGowan for my undergraduate honors thesis. We’re developing tools in R to streamline behavioral data collection and processing in the social and biological sciences.\nMy master’s thesis is supervised by Dr. Kishida, and we are studying the neurobiology of decision making under uncertainty.\nSome (not so) fun facts about me:\n\nI’m from Orlando, FL, and I get asked if I go to Disney a lot more times than I’ve been to Disney.\nI like going to the gym to pick things up and put them down again.\nI enjoy reading and sleeping, though not at the same time.\nI’m a sushi lover (and chef) who is slightly concerned about consuming too much mercury.\n\n\n\n\nInterests\n\nR programming\nNeuroeconomics\nHuman Decision Making\n\n\n\n\n Education\nWake Forest University\nB.S. in Computational Neuroscience, 2021 M.S. in Biomedical Sciences, Neuroscience Concentration, 2022"
-  },
-  {
-    "objectID": "people/fiona-zhang/index.html",
-    "href": "people/fiona-zhang/index.html",
-    "title": "Fiona Zhang",
-    "section": "",
-    "text": "Hello! I’m an undergraduate student at Wake Forest University. I will major in Mathematics and Computer Science. I really enjoy applying what I learnt in statistics and math to daily life data analysis and problem solving. Outside of class, I enjoy painting and skiing.\n\n\n\nInterests\n\nComputer Science\nApplied Mathematics\nData Analysis\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematics and B.S. in Computer Science, 2027"
-  },
-  {
-    "objectID": "people/Iris-Liu/index.html",
-    "href": "people/Iris-Liu/index.html",
-    "title": "Iris Liu",
-    "section": "",
-    "text": "I am a Junior double major in Mathematical Statistics and Studio Art. I am keen on applying my skills and experience in these two areas to solve problems analytically and creatively.\nI did a URECA research project mentored by Dr. McGowan during this summer. We helped the Reynolda House Museum of American Art manage, analyze, and visualize their data.\nBesides data, I am passionate about wilderness adventure, sustainability, and fine art.\n\n\n\nInterests\n\nR programming\nData visualization\nHuman-data interaction\n\n\n\n\n Education\nWake Forest University\nB.S. in Mathematical Statistics & B.A. in Studio Art, 2022"
+    "text": "Some things that will make it easier for you to quickly transition into our lab:\nInterested in joining our lab?"
   },
   {
     "objectID": "join-us.html#undergraduate-researchers",
@@ -145,5 +103,26 @@
     "title": "Join Us",
     "section": "Master’s Student",
     "text": "Master’s Student\nIf you are a current graduate student at Wake Forest interested in joining our lab fill out this interest form.\nIf you are a prospective graduate student considering attending Wake Forest, send me an email and we can chat more about the program."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Theobold’sData Science Research Group",
+    "section": "",
+    "text": "Welcome to Dr. T’s (Theobold) research lab! Our research lab is comprised of undergraduate and master’s student researchers from the Department of Statistics at Cal Poly. Our research group is interested in researching students’ classroom experiences and how these experiences affect various aspects of their affect toward statistics and data science.\nInterested in what we’re currently working on? Check out our current projects. Are you a current or prospective student at Cal Poly? Consider joining us!"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "DTRL",
+    "section": "",
+    "text": "Assistant Professor Department of Statistical Sciences"
+  },
+  {
+    "objectID": "people.html#principle-investigator",
+    "href": "people.html#principle-investigator",
+    "title": "DTRL",
+    "section": "",
+    "text": "Assistant Professor Department of Statistical Sciences"
   }
 ]

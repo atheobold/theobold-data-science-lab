@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>DEAL Lab Book – DTRL</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">DTRL</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">Lab Protocol</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./lab-protocol.html" aria-current="page"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./join-us.html"> 
+<span class="menu-text">Join Us</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">DEAL Lab Book</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Welcome to the Data Ethnography and Advocacy Lab Book! Here we outline the values that guide our work, group roles and responsibilities, protocols for facilitating meetings, guidelines for documenting our work, and expectations on group conduct.</p>
+<p>These protocols are inspired from the work of several groups that inspire us - in particular the <a href="https://github.com/Carceral-Ecologies/lab_book">Carceral Ecologies Lab Book</a>, the <a href="https://civiclaboratory.nl/clear-lab-book/">CLEAR Lab Book</a>, the <a href="https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf">Aly Lab Manual</a>, the PECE Design Team Protocols, and the Energy Rights Project Protocols. In-text citations are provided throughout the document where text is drawn directly from these sources documents. Full citations of these resources are listed in the References section.</p>
+<p>Further, the protocols are continuously being collectively (re)authored as new members join the group.</p>
+</section>
+<section id="lab-values" class="level2">
+<h2 class="anchored" data-anchor-id="lab-values">Lab Values</h2>
+<section id="compassion" class="level3">
+<h3 class="anchored" data-anchor-id="compassion">Compassion</h3>
+<p>In this group, we care about each other, not just in our work lives, but also as individuals that have lives outside of this work. We encourage our collaborators to prioritize their personal health and well-being before our research, and we respect each other’s personal boundaries. We strive to embody kindness in all of our interactions with each other, and attempt to show up for each other in moments of distress. We honor each other’s identities and backgrounds.</p>
+</section>
+<section id="community" class="level3">
+<h3 class="anchored" data-anchor-id="community">Community</h3>
+<p>In this group, we strive to foster a supportive research environment. We show respect for each other’s time by setting clear expectations on project timelines, roles, progress, and issues. We assess progress towards goals often, adjust our expectations when necessary, and offer flexibility/wiggle room when unexpected circumstances come up. We make an effort to coordinate our work with an understanding that we all have unique work styles. We consistently keep lines of communication open, especially when things are not going as planned or when conflicts arise. We work to develop trust in each other by following through on commitments and showing respect for each other’s ideas - both in moments when we are in agreement and in moments when we are offering critique. We offer mentorship in cases when we have specialized knowledge to share, and we acknowledge the unique knowledge that everyone in the group brings to the collaboration. We celebrate each other’s successes and hype each other up in moments when we feel discouraged. We strive for consensus in our decision-making and understand that this, at times, requires compromise.</p>
+</section>
+<section id="grit" class="level3">
+<h3 class="anchored" data-anchor-id="grit">Grit</h3>
+<p>In this group, we work hard toward our goals. We are proactive problem-solvers, taking initiative in order to persevere as challenges arise. We set the intention to follow through on our commitments. We recognize the significance of diverse kinds of labor - from the most tedious and monotonous to the most innovative and creative.</p>
+</section>
+<section id="purpose" class="level3">
+<h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
+<p>In this group, we work towards a collective vision of advancing social and environmental equity, justice, and accountability through improvements to data infrastructure. We are transparent about the social and political aims of our work to newcomers and in public presentations of the work. We seek out opportunities to advocate on behalf of interventions that align with our collective vision. We prioritize our collective vision when making decisions about who will be invited to participate in the work, which groups we will seek input from, what resources we will accept/leverage to support the work, and through what channels the work will be disseminated.</p>
+</section>
+<section id="integrity" class="level3">
+<h3 class="anchored" data-anchor-id="integrity">Integrity</h3>
+<p>In this group, we are committed to presenting our work with honesty and context. We value reflexivity in our research practice. We acknowledge what we don’t know, can’t know (due to our unique positionality), or have yet to learn. We listen carefully, especially to perspectives held by those with cultural identities we do not share, and are willing to have assumptions challenged. We admit mistakes, learn from them, and then move on from them.</p>
+</section>
+</section>
+<section id="roles-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and Responsibilities</h2>
+<section id="joining-the-lab" class="level3">
+<h3 class="anchored" data-anchor-id="joining-the-lab">Joining the Lab</h3>
+<p>We are thrilled to invite new members to the lab. When joining the lab, you should do the following:</p>
+<ol type="1">
+<li>Read this lab book.</li>
+<li>Email Lindsay or the Lead Mentor and ask to be added to our Slack Workspace. Check out <a href="https://slack.com/resources/using-slack/top-5-tips-for-getting-started-in-slack">this tutorial</a> if you are new to Slack.</li>
+<li>Join the #onboarding Slack channel, and follow the instructions in Lindsay’s October 4, 2021 post.</li>
+<li>Join Slack channels related to the projects you will be working on and read recent correspondence in these channels. Configure your Slack notifications in these channels.</li>
+<li>Create a GitHub account, and send Lindsay your GitHub handle.</li>
+<li>Create a Zotero account <a href="https://www.zotero.org/user/register/">here</a> and install both Zotero and Zotero Connector here <a href="https://www.zotero.org/download/">here</a>. Send Lindsay or the Lead Mentor your Zotero username so they can add you to our shared Zotero account. Then watch <a href="https://www.youtube.com/watch?v=JG7Uq_JFDzE">this video</a>, introducing Zotero.</li>
+<li>Ask Lindsay to be added to the shared Google Drive. See if you can find your work folder for this semester.<br>
+</li>
+<li>Complete CITI Training <a href="https://www.smith.edu/academics/institutional-review-board/application-process">here</a> (Navigate to Required Online Ethics Training and follow instructions). You should complete the Basic Human Subjects - Social and Behavioral Course. Send me a copy of your certificate upon completion.</li>
+<li>Send Lindsay a headshot and short biography so that you can be added to the Lab website.</li>
+</ol>
+</section>
+<section id="faculty-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="faculty-responsibilities">Faculty Responsibilities</h3>
+<blockquote class="blockquote">
+<p>This section draws heavily from the <a href="https://github.com/Carceral-Ecologies/lab_book">Carceral Ecologies Lab Book</a> and the <a href="https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf">Aly Lab Manual</a></p>
+</blockquote>
+<p>As the director of the Data Ethnography and Advocacy Lab, Lindsay commits to:</p>
+<ul>
+<li>Support you (academically, intellectually, emotionally, financially)</li>
+<li>Provide timely feedback on project ideas, data analysis, writing, and presentations</li>
+<li>Review and approve timesheets on a timely basis</li>
+<li>Be regularly available in person and via email to discuss both lab-related research and other research interests</li>
+<li>Support your career development (e.g.&nbsp;helping you network with people in the field, introducing you to infrastructures and workflows that may be relevant to your future career, writing recommendation letters, and inviting you to attend conferences when finances permit)</li>
+<li>Ensuring that you are acknowledged for your contributions in all presentations of our work</li>
+<li>Encourage you to prioritize your physical and emotional well-being before other obligations</li>
+</ul>
+</section>
+<section id="student-researcher-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="student-researcher-responsibilities">Student Researcher Responsibilities</h3>
+<blockquote class="blockquote">
+<p>This section draws heavily from the <a href="https://github.com/Carceral-Ecologies/lab_book">Carceral Ecologies Lab Book</a> and the <a href="https://civiclaboratory.nl/clear-lab-book/">CLEAR Lab Book</a>.</p>
+</blockquote>
+<p>As a student researcher, you will be expected to:</p>
+<ul>
+<li><em>Take care of your physical and mental well-being first.</em> If you are sick or burnt out, please stay home. If possible, let us know ahead of time that you need to step back. The <a href="https://www.smith.edu/student-life/health-wellness">Schacht Center</a> has a number of resources available to help navigate distressing times.</li>
+<li><em>Attend weekly lab meetings.</em> Lab meetings are held weekly for one-hour. In these meetings, we discuss how we operate as a lab and as a community, along with our progress on a number of projects. Please let us know ahead of time if you cannot make a meeting via the #general channel on Slack - preferably at least 24 hours in advance (though we recognize this is not always possible). You do not need to explain why you cannot attend a meeting in this message, but please don’t create a habit of missing meetings.</li>
+<li><em>Take personal initiative with group support.</em> While we collaborate as a team, each individual member of our group has a personal responsibility to ensure that their contributions to the work get done. There will not be a great deal of oversight of your work, so we expect that each member will take steps to manage their time effectively, honestly communicate their capacity to contribute, and let us know if/when they need to re-evaluate their time commitments. To help cultivate and sustain this culture of accountability, all group members are encouraged to support each other by outlining <strong>manageable</strong> tasks, helping out with tasks in times of struggle (when asked), and respecting a group member’s decision to step back when needed.</li>
+<li><em>Problem solve when you can. Ask questions when you are unsure.</em> We are all here to help each other navigate this work, and we encourage you to ask questions and request help when it’s needed. Still, attempting to problem solve when you can demonstrates that you value your collaborator’s time, so try that first. If you learn how to do something that might be helpful to others, share it in our Slack Workspace!</li>
+<li><em>Contribute to a caring and collaborative environment.</em> Celebrate each other’s successes, respect each other’s individual strengths and weaknesses, demonstrate compassion for each other’s struggles, and affirm each other’s diverse identities.</li>
+<li><em>Mistakes happen. Admit mistakes, and then move on.</em></li>
+</ul>
+</section>
+<section id="assignment-of-roles" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-of-roles">Assignment of Roles</h3>
+<p>Roles get assigned to members of the lab that have already been with us for a full semester. After your first semester as a lab member, you will be expected to take on at least one role per semester. Roles will be assigned during the previous semester’s last lab meeting and will be rotated every semester. Roles will be determined on a volunteer basis and confirmed via group consensus.</p>
+<p>Note-taking will be a shared rotating responsibility. We will maintain a spreadsheet listing who is responsible for note-taking in the Google Drive.</p>
+<section id="lab-manager" class="level4">
+<h4 class="anchored" data-anchor-id="lab-manager">Lab Manager</h4>
+<ul>
+<li>Schedules meetings and sends out meeting reminders</li>
+<li>Takes attendance at all meetings</li>
+<li>Point person for attendance</li>
+<li>Archives zoom recordings</li>
+<li>Manages assets</li>
+<li>Manages Kanban</li>
+</ul>
+</section>
+<section id="documentation-manager" class="level4">
+<h4 class="anchored" data-anchor-id="documentation-manager">Documentation Manager</h4>
+<ul>
+<li>Responsible for keeping Google Drive organized</li>
+<li>Responsible for ensuring that each GitHub repo meets requirements outlined in the Documentation Guidelines</li>
+<li>Maintains to-do lists on our documentation</li>
+</ul>
+</section>
+<section id="web-manager" class="level4">
+<h4 class="anchored" data-anchor-id="web-manager">Web Manager</h4>
+<ul>
+<li>Responsible for keeping the website up-to-date</li>
+<li>Maintains a blog publishing schedule,</li>
+<li>Collects and edits blog posts from collaborative teams,</li>
+<li>Collaborates with social media manager</li>
+</ul>
+</section>
+<section id="social-media-manager" class="level4">
+<h4 class="anchored" data-anchor-id="social-media-manager">Social Media Manager</h4>
+<ul>
+<li>Responsible for finding relevant organizations to network with and follow</li>
+<li>Responsible for posting news stories and videos relevant to our work</li>
+<li>Responsible for advertising blog posts on social media</li>
+</ul>
+</section>
+<section id="lead-mentor" class="level4">
+<h4 class="anchored" data-anchor-id="lead-mentor">Lead Mentor</h4>
+<ul>
+<li>Point person for new members</li>
+<li>Checks in with new members regularly</li>
+<li>Answers or directs questions in the #newbies Slack channel</li>
+</ul>
+</section>
+<section id="event-manager" class="level4">
+<h4 class="anchored" data-anchor-id="event-manager">Event Manager</h4>
+<ul>
+<li>Maintains lab calendar</li>
+<li>Main point of contact for guest speakers (managing scheduling, setting up meeting times etc)</li>
+<li>Plans end of semester social event</li>
+<li>Maintains list of lab birthdays and sends birthday cards from the lab</li>
+</ul>
+</section>
+</section>
+<section id="exiting-the-lab" class="level3">
+<h3 class="anchored" data-anchor-id="exiting-the-lab">Exiting the Lab</h3>
+<p>We understand and respect that you may need to step away from your position in the lab to prioritize attention elsewhere. As advocates for your success, we also celebrate when new opportunities arise! If you need to step away from your position, you should reach out to Lindsay as soon as possible. We will set up a meeting to discuss how you should document the state of your work and to complete a short exit interview.</p>
+</section>
+</section>
+<section id="communication" class="level2">
+<h2 class="anchored" data-anchor-id="communication">Communication</h2>
+<section id="slack" class="level3">
+<h3 class="anchored" data-anchor-id="slack">Slack</h3>
+<p>Slack will be the primary means of lab communication. <a href="dataethnography.slack.com">Here</a> is a link to our Slack Workspace. This Slack channel is on the Smith Enterprise Workspace, meaning that anyone with a Smith email address can immediately be added to this Workspace and view and join all public channels, but guests must be invited and manually added to relevant channels. When posting message, please be sure to post in the relevant channel:</p>
+<ul>
+<li>#general: announcements to all group members</li>
+<li>#[project-name]: communication regarding a particular DEAL project</li>
+<li>#support: questions about the group protocols, timesheet reporting, or other group infrastructures</li>
+<li>#cheers: celebrate lab member accomplishments or express gratitude for a lab member’s work</li>
+<li>#random: non-work related conversations</li>
+</ul>
+<p>Since Slack is our primary means of communication, you should check Slack regularly. You may wish to install the Slack Desktop application to help keep track of Slack messages. You can also <a href="https://slack.com/help/articles/201355156-Configure-your-Slack-notifications#">configure Slack</a> to notify you when messages come through on specific channels. You are not expected to respond to Slack messages on evenings and weekends.</p>
+</section>
+<section id="github" class="level3">
+<h3 class="anchored" data-anchor-id="github">GitHub</h3>
+<p>When you join the lab, you will be added to our <a href="https://github.com/orgs/Data-Ethnography-and-Advocacy-Lab/">GitHub organization</a>. There are series of repository templates available for creating new GitHub repositories. We’ve created these templates to ensure consistency across our folder structures and completeness in the contents of our README documents. Please be sure to select the appropriate template before creating a new repo. Reach out to Lindsay if you are unsure of which template is most appropriate.</p>
+</section>
+</section>
+<section id="lab-meeting-protocols" class="level2">
+<h2 class="anchored" data-anchor-id="lab-meeting-protocols">Lab Meeting Protocols</h2>
+<p>The general format for all lab meetings is as follow:</p>
+<ul>
+<li>Opening: Lab manager disseminates link to meeting notes document and takes attendance. Note-taker is determined by referencing the rotating note-taker schedule in the Drive.</li>
+<li>Group check-in: Lab manager asks the group check-in question: <em>Where is your head and your heart today?</em> Everyone has an opportunity to respond (round robin style). Members may pass if they choose.</li>
+<li>Project updates: For each project, group members detail what was accomplished since the last meeting, what they plan to accomplish in the coming week, and what is getting in the way of being able to accomplish those tasks. Everyone has an opportunity to ask questions.</li>
+<li>Lab check-in: Group members have an opportunity to ask questions or voice concerns about any aspects of lab operations.</li>
+<li>Summary: We close each meeting with the note-taker summarizing to-do list items for the next week.</li>
+</ul>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<section id="lab-meeting-agendas-and-meeting-notes" class="level3">
+<h3 class="anchored" data-anchor-id="lab-meeting-agendas-and-meeting-notes">Lab Meeting Agendas and Meeting Notes</h3>
+<p>All lab meeting agendas and notes will be stored in one running Google Drive document. In this document, each new meeting should be marked with the date of the meeting formatted as ‘Heading 1’. This will ensure each date appears in the document’s table of contents so that we can quickly navigate to those notes. Notes should list who was in attendance at a meeting, along with pertinent information discussed during the meeting.</p>
+</section>
+<section id="google-drive" class="level3">
+<h3 class="anchored" data-anchor-id="google-drive">Google Drive</h3>
+<p>We maintain a shared Google Drive for all shared lab documents and files that are not hosted in GitHub repositories. This may include:</p>
+<ul>
+<li>lab meeting agendas and meeting notes</li>
+<li>lab planning documents</li>
+<li>datasets that are too large for GitHub storage</li>
+<li>drafts of collaboratively edited manuscripts, abstracts, or proposals</li>
+<li>data inventories and quality assurance checklists</li>
+<li>spreadsheets for lab contacts</li>
+<li>tutorials</li>
+<li>etc.</li>
+</ul>
+</section>
+<section id="code-and-data-documentation" class="level3">
+<h3 class="anchored" data-anchor-id="code-and-data-documentation">Code and Data Documentation</h3>
+<p>For code and data documentation, we will follow the <a href="https://docs.google.com/document/d/1f3isQQS7uho_vto2Bf5HvbZBtUA0Pe0f7NlR_ARjTQ8/edit?usp=sharing">Hack for California Guidelines</a> (soon to be updated and adapted for our specific work.)</p>
+</section>
+</section>
+<section id="authorship-acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="authorship-acknowledgements">Authorship &amp; Acknowledgements</h2>
+<p>As members of the group, you may be asked to participate in the preparation of manuscripts, presentations, or other forms of media presenting our work. As the faculty lab director, it is Lindsay’s responsibility to ensure that:</p>
+<ol type="1">
+<li>Group members are properly acknowledged for their contributions to the group in all presentations of our work.</li>
+<li>Opportunities for authorship and presenting our work are equitably distributed across group members. Note that, while we will always work to value and reward diverse forms of labor in this group, promoting equity in authorship sometimes means prioritizing credit to those that, for a number of reasons, haven’t been able to contribute quite as much as others. See Liboiron, Max, Justine Ammendolia, Katharine Winsor, Alex Zahara, Hillary Bradshaw, Jessica Melvin, Charles Mather, et al.&nbsp;2017. “Equity in Author Order: A Feminist Laboratory’s Approach.” <em>Catalyst: Feminism, Theory, Technoscience</em> 3 (2): 1–17. https://doi.org/10.28968/cftt.v3i2.28850.</li>
+<li>Clear and direct conversations about authorship and acknowledgements are held early in the process and are revisited as necessary as the work progresses.</li>
+</ol>
+</section>
+<section id="code-of-conduct" class="level2">
+<h2 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h2>
+<blockquote class="blockquote">
+<p>This anti-harassment policy is based on the example policy from the <a href="http://geekfeminism.wikia.com/wiki/Community_anti-harassment:">Geek Feminism wiki</a>, created by the Geek Feminism community. DEAL is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, or religion. We do not tolerate harassment of participants in any form.</p>
+</blockquote>
+<p>This code of conduct applies to all DEAL spaces, including lab meetings, our Slack Workspace, and our GitHub, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the project director.</p>
+<p>Some DEAL spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Aly Lab. (2021). <em>Aly Lab Manual.</em> Columbia University. https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf</p>
+<p>Carceral Ecologies Lab. (2021). <em>Lab Book (draft version)</em> University of California Los Angeles. https://github.com/Carceral-Ecologies/lab_book</p>
+<p>CLEAR. (2021). <em>CLEAR Lab Book: A living manual of our values, guidelines, and protocols, V.03.</em> St.&nbsp;John’s, NL: Civic Laboratory for Environmental Action Research, Memorial University of Newfoundland and Labrador.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
