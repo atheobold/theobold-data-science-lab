@@ -8,12 +8,12 @@ listing:
 ::: {style="text-align: center;"}
 ## Principle Investigator
 
-![](https://www.lucymcgowan.com/img/headshot-square-2.jpg){width="33%"}
+![](https://atheobold.github.io/media/full-body-shot.jpg){width="33%"}
 
-### [Lucy D'Agostino McGowan](https://lucymcgowan.com)
+### [Allison Theobold](https://atheobold.github.io/)
 
-Assistant Professor\
+Assistant Professor
 Department of Statistical Sciences
 
 ## Students
-:::
+
