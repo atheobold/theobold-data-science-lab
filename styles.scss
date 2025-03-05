@@ -1,0 +1,122 @@
+/*-- scss:defaults --*/
+// Import Google Fonts
+// Headings
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+// Fonts
+$poppins: "Poppins", sans-serif;
+$satisfy: "Satisfy", serif;
+
+// Colors
+$pink: #E63981;
+$dark-blue: #2A3D55;
+$sky-blue: #89CFF0;
+$light-green: #6BA76B;
+$dark-green: #173518;
+$beige: #FAF2E4;
+$charcoal: #4A4A4A;
+
+// Base document colors
+$navbar-bg: $dark-blue; // navbar
+$navbar-fg: $pink; // navbar foreground elements
+$navbar-hl: $pink; // highlight color when hovering over navbar links
+$body-bg: $beige; // page background 
+$body-color: $charcoal; // page text 
+$footer-bg: $dark-blue; // footer 
+$link-color: $dark-blue; // hyperlinks 
+
+// Inline code
+$code-bg: $beige; // inline code background color
+$code-color: $dark-blue; // inline code text color
+
+/*-- scss:rules --*/
+
+/* ELEMENT SELECTORS */
+
+h1, h2 {
+  font-family: $satisfy;
+  font-weight: 1000;
+  letter-spacing: 2px;
+}
+
+/* ID selectors */
+
+// landing page text
+#bio {
+  font-size: 1.25em;
+}
+
+// landing page icon size
+#landing-icons {
+  font-size: 1.5em;
+  color: $dark-blue;
+}
+
+/* CLASS SELECTORS */
+
+.cursive { 
+  font-family: $satisfy;
+}
+
+.title {
+  color: $dark-blue;
+}
+
+.navbar-brand img { 
+  max-height: 75px;
+  width: auto;
+}
+
+.navbar-icon {
+  font-size: 10px; /* Adjust this value to your desired size */
+}
+
+.center-text {
+  text-align: center;
+}
+
+.pink-text {
+  color: $pink;
+}
+
+// button icon size (landing page)
+// github and linkedin buttons
+.bi { 
+  font-size: 18px;
+}
+
+// listing card styling
+.card {
+  background-color: $beige;
+}
+
+// listing description text styling
+.description {
+  font-size: 20px;
+}
+
+// responisve embedded slides (thanks Casey O'Hara; see https://github.com/nceas-learning-hub/coreR_test/blob/main/lh-style.css)
+.slide-deck{
+  border: 3px solid #dee2e6;
+    border-top-color: rgb(222, 226, 230);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: rgb(222, 226, 230);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgb(222, 226, 230);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(222, 226, 230);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+  width: 70%;
+  height: 475px;
+}
+

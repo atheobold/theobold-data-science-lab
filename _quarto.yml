@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 execute:
   freeze: auto
@@ -14,16 +15,20 @@ website:
         text: "Projects"
       - href: people.qmd
         text: "People"
+      - href: lab-protocol.qmd
+        text: "Lab Protocol"
       - join-us.qmd
 
 format:
   html:
-    theme: cosmo
-    fontfamily: fraunces
+    theme: styles.scss
+    mainfont: M PLUS Rounded 1c
     fontcolor: "#333333"
     linkcolor: "#D5008F"
     backgroundcolor: "#f2f2f1"
+    #toc: true
+    page-layout: full
+    sidebar: false
     css: styles.css
 
 editor: source
-
