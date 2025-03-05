@@ -1,0 +1,45 @@
+---
+about:
+  template: trestles
+  image: featured.jpeg
+  links:
+    - icon: envelope
+      href: "mailto:ophunt@calpoly.edu"
+    - icon: github
+      href:  https://github.com/otishunt
+title: Otis Hunt
+subtitle: "Undergraduate Research Assistant"
+years active: 2024
+page-layout: full
+---
+
+I'm Otis from Marin County, CA, and I'm studying Statistics while working 
+towards the Data Science minor. Currently, I am working with Dr. T to create
+stronger surveys that adjust the standard Likert-scale multiple choice surveys
+to improve the data quality of survey responses while decreasing the subjective cognitive load of the respondents. Next, we are looking to  examine
+free-response questions and their purpose in educational and groupwork related
+surveys. In this genre of projects, our goal is to improve the survey experience
+for both the surveyors and the respondents so that you don't have to feel bored
+the next time you take a survey. 
+
+In my free time, you can catch me playing intramural sports, rock climbing, and
+listening to music too loud.
+
+::: columns
+::: column
+
+### {{< fa lightbulb >}} Interests
+
+- R & Python
+- Survey Design
+- Text Analysis
+:::
+
+::: column
+### {{< fa graduation-cap >}} Education
+
+*Cal Poly*
+
+B.S. in Statistics & Minor in Data Science, 2027
+:::
+:::
