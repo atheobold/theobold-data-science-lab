@@ -79,23 +79,23 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Ongoing Projects",
+    "title": "Current Research Projects",
     "section": "",
-    "text": "Ongoing Projects\n\n\n\n\n\n\nStatistical communication\n\nWe are examining both how statistics are communicated to the general public and how they may be best perceived.\n\n\n\n\n\n\ntidycode\n\nIn the spirit of studying human data interaction, we are developing an R package that can be used to analyze R code in the tidyverse paradigm.\n\n\n\n\n\n\nQuantifying sensitivity to unmeasured confounding\n\nWe are working to simplify sensitivity to unmeasured confounding analyses so that they can be implemented by non-statistical researchers in clinical or social science settings. We have created an R package on CRAN, tipr, to facilitate this.\n\n\n\n\n\n\n\n\nData analysis for the local community\n\nWe are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data.\n\n\n\n\n\n\nShiny in the classroom\n\nWe are developing shiny applications for the classroom setting.\n\n\n\n\n\n\nData science pedagogy\n\nWe are actively examining best practices in teaching data science, both in the classroom and via Massive Open Online Courses (MOOCs)."
+    "text": "Current Research Projects\n\n\n\n\n\n\nStatistical communication\n\nWe are examining both how statistics are communicated to the general public and how they may be best perceived.\n\n\n\n\n\n\nGroupworthy Data Science Activities\n\n\n\n\n\n\n\n\nStudents’ Self Perceptions\n\nThis project was led by Jett Palmer, who was interested in exploring how an instructor’s pedagogical methods were associated with aspects of students’ social identities (e.g., disciplinary identity). Jett presented on this research during the 2023 eCOTS Poster Presentations.\n\n\n\n\n\n\n\n\nIncreasing Cognitive Engagement in Surveys\n\nWe are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data."
   },
   {
     "objectID": "people.html",
     "href": "people.html",
     "title": "DTRL",
     "section": "",
-    "text": "Assistant Professor\nDepartment of Statistical Sciences"
+    "text": "Assistant Professor Department of Statistical Sciences"
   },
   {
     "objectID": "people.html#principle-investigator",
     "href": "people.html#principle-investigator",
     "title": "DTRL",
     "section": "",
-    "text": "Assistant Professor\nDepartment of Statistical Sciences"
+    "text": "Assistant Professor Department of Statistical Sciences"
   },
   {
     "objectID": "people/noah-edwards-thro/index.html",
