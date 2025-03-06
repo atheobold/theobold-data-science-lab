@@ -9,7 +9,7 @@ about:
       href:  https://github.com/otishunt
 title: Otis Hunt
 subtitle: "Undergraduate Research Assistant"
-years active: 2024
+Researcher Since: 2024
 page-layout: full
 ---
 

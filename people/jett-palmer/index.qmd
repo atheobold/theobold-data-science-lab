@@ -1,0 +1,37 @@
+---
+about:
+  template: trestles
+  image: featured.jpeg
+  links:
+    - icon: envelope
+      href: "mailto:jpalme20@calpoly.edu"
+    - icon: github
+      href: https://github.com/jettpalmer
+title: Jett Palmer
+subtitle: "Undergraduate Research Assistant"
+Researcher Since: 2023
+page-layout: full
+---
+
+Hello! I'm originally from San Diego, and I'm currently studying Statistics at
+Cal Poly. My research focuses on how institutional and pedagogical factors
+influence human behavior. I enjoy exploring statistics in applied contexts and
+staying involved in campus governance. Outside of the classroom, I play
+pickleball and indulge my passion for craft coffee!
+
+::: columns
+::: column
+
+### {{< fa lightbulb >}} Interests
+
+I have too many interests to list them! 🙃
+:::
+
+::: column
+### {{< fa graduation-cap >}} Education
+
+*Cal Poly*
+
+B.S. in Statistics, 2026
+:::
+:::
