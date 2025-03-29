@@ -7,60 +7,11 @@
     "text": "I’m Otis from Marin County, CA, and I’m studying Statistics while working towards the Data Science minor. Currently, I am working with Dr. T to create stronger surveys that adjust the standard Likert-scale multiple choice surveys to improve the data quality of survey responses while decreasing the subjective cognitive load of the respondents. Next, we are looking to examine free-response questions and their purpose in educational and groupwork related surveys. In this genre of projects, our goal is to improve the survey experience for both the surveyors and the respondents so that you don’t have to feel bored the next time you take a survey.\nIn my free time, you can catch me playing intramural sports, rock climbing, and listening to music too loud.\n\n\n\n Interests\n\nR & Python\nSurvey Design\nText Analysis\n\n\n\n\n Education\nCal Poly\nB.S. in Statistics & Minor in Data Science, 2027"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "DTRL",
+    "objectID": "people/sean-leader/index.html",
+    "href": "people/sean-leader/index.html",
+    "title": "Sean Leader",
     "section": "",
-    "text": "Assistant Professor Department of Statistical Sciences"
-  },
-  {
-    "objectID": "people.html#principle-investigator",
-    "href": "people.html#principle-investigator",
-    "title": "DTRL",
-    "section": "",
-    "text": "Assistant Professor Department of Statistical Sciences"
-  },
-  {
-    "objectID": "people.html#students",
-    "href": "people.html#students",
-    "title": "DTRL",
-    "section": "Students",
-    "text": "Students"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dr. Theobold’sData Science Research Group",
-    "section": "",
-    "text": "Welcome to Dr. T’s (Theobold) research lab! Our research lab is comprised of undergraduate and master’s student researchers from the Department of Statistics at Cal Poly. Our research group is interested in researching students’ classroom experiences and how these experiences affect various aspects of their affect toward statistics and data science.\nInterested in what we’re currently working on? Check out our current projects. Are you a current or prospective student at Cal Poly? Consider joining us!"
-  },
-  {
-    "objectID": "join-us.html",
-    "href": "join-us.html",
-    "title": "Join Us",
-    "section": "",
-    "text": "Some things that will make it easier for you to quickly transition into our lab:\nInterested in joining our lab?"
-  },
-  {
-    "objectID": "join-us.html#undergraduate-researchers",
-    "href": "join-us.html#undergraduate-researchers",
-    "title": "Join Us",
-    "section": "Undergraduate Researchers",
-    "text": "Undergraduate Researchers\nIf you are a current undergraduate student at Wake Forest University, we are excited to have you work on one of our projects, or an idea of your own! We will be taking on new students Fall 2022. Spots will be filled on a rolling basis. Fill out this interest form."
-  },
-  {
-    "objectID": "join-us.html#masters-student",
-    "href": "join-us.html#masters-student",
-    "title": "Join Us",
-    "section": "Master’s Student",
-    "text": "Master’s Student\nIf you are a current graduate student at Wake Forest interested in joining our lab fill out this interest form.\nIf you are a prospective graduate student considering attending Wake Forest, send me an email and we can chat more about the program."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Current Research Projects",
-    "section": "",
-    "text": "Current Research Projects\n\n\n\n\n\n\nStatistical communication\n\nWe are examining both how statistics are communicated to the general public and how they may be best perceived.\n\n\n\n\n\n\nGroupworthy Data Science Activities\n\n\n\n\n\n\n\n\nStudents’ Self Perceptions\n\nThis project was led by Jett Palmer, who was interested in exploring how an instructor’s pedagogical methods were associated with aspects of students’ social identities (e.g., disciplinary identity). Jett presented on this research during the 2023 eCOTS Poster Presentations.\n\n\n\n\n\n\n\n\nIncreasing Cognitive Engagement in Surveys\n\nWe are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data."
+    "text": "Hello! I’m Sean, originally from Tucson, Arizona but I moved to San Luis Obispo for college to study Statistics and Data Science at Cal Poly. During my time there, I researched introductory statistics curriculum and student collaborations (thanks to Dr. Theobold!). I am currently pursuing my PhD in Statistics at UC Irvine, where I’m working to derive a new statistical methodology for biomarker research in the area of Alzheimer’s disease. I hope to one day teach at a university where I can spread the joy of statistics with future generations of students.\n\n\n\n Interests\n\nR & Python\nStatistics Education\nBiomedical Research\n\n\n\n\n Education\nCal Poly\nB.S. in Statistics & Minor in Data Science, 2024 M.S. in Statistics, 2024"
   },
   {
     "objectID": "lab-protocol.html",
@@ -131,6 +82,62 @@
     "title": "DEAL Lab Book",
     "section": "References",
     "text": "References\nAly Lab. (2021). Aly Lab Manual. Columbia University. https://github.com/alylab/labmanual/blob/master/aly-lab-manual.pdf\nCarceral Ecologies Lab. (2021). Lab Book (draft version) University of California Los Angeles. https://github.com/Carceral-Ecologies/lab_book\nCLEAR. (2021). CLEAR Lab Book: A living manual of our values, guidelines, and protocols, V.03. St. John’s, NL: Civic Laboratory for Environmental Action Research, Memorial University of Newfoundland and Labrador."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Current Research Projects",
+    "section": "",
+    "text": "Current Research Projects\n\n\n\n\n\n\nStatistical communication\n\nWe are examining both how statistics are communicated to the general public and how they may be best perceived.\n\n\n\n\n\n\nGroupworthy Data Science Activities\n\n\n\n\n\n\n\n\nStudents’ Self Perceptions\n\nThis project was led by Jett Palmer, who was interested in exploring how an instructor’s pedagogical methods were associated with aspects of students’ social identities (e.g., disciplinary identity). Jett presented on this research during the 2023 eCOTS Poster Presentations.\n\n\n\n\n\n\n\n\nIncreasing Cognitive Engagement in Surveys\n\nWe are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data."
+  },
+  {
+    "objectID": "join-us.html",
+    "href": "join-us.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "Some things that will make it easier for you to quickly transition into our lab:\nInterested in joining our lab?"
+  },
+  {
+    "objectID": "join-us.html#undergraduate-researchers",
+    "href": "join-us.html#undergraduate-researchers",
+    "title": "Join Us",
+    "section": "Undergraduate Researchers",
+    "text": "Undergraduate Researchers\nIf you are a current undergraduate student at Wake Forest University, we are excited to have you work on one of our projects, or an idea of your own! We will be taking on new students Fall 2022. Spots will be filled on a rolling basis. Fill out this interest form."
+  },
+  {
+    "objectID": "join-us.html#masters-student",
+    "href": "join-us.html#masters-student",
+    "title": "Join Us",
+    "section": "Master’s Student",
+    "text": "Master’s Student\nIf you are a current graduate student at Wake Forest interested in joining our lab fill out this interest form.\nIf you are a prospective graduate student considering attending Wake Forest, send me an email and we can chat more about the program."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Theobold’sData Science Research Group",
+    "section": "",
+    "text": "Welcome to Dr. T’s (Theobold) research lab! Our research lab is comprised of undergraduate and master’s student researchers from the Department of Statistics at Cal Poly. Our research group is interested in researching students’ classroom experiences and how these experiences affect various aspects of their affect toward statistics and data science.\nInterested in what we’re currently working on? Check out our current projects. Are you a current or prospective student at Cal Poly? Consider joining us!"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "DTRL",
+    "section": "",
+    "text": "Assistant Professor Department of Statistical Sciences"
+  },
+  {
+    "objectID": "people.html#principle-investigator",
+    "href": "people.html#principle-investigator",
+    "title": "DTRL",
+    "section": "",
+    "text": "Assistant Professor Department of Statistical Sciences"
+  },
+  {
+    "objectID": "people.html#students",
+    "href": "people.html#students",
+    "title": "DTRL",
+    "section": "Students",
+    "text": "Students"
   },
   {
     "objectID": "people/jett-palmer/index.html",

@@ -1,0 +1,43 @@
+---
+about:
+  template: trestles
+  image: featured.
+  links:
+    - icon: envelope
+      href: "mailto:spleader13@gmail.com"
+    - icon: github
+      href:  https://github.com/SPLeader
+title: Sean Leader
+subtitle: "Past Undergraduate Research Assistant"
+Researcher Since: 2023
+page-layout: full
+---
+
+Hello! I'm Sean, originally from Tucson, Arizona but I moved to San Luis Obispo
+for college to study Statistics and Data Science at Cal Poly. During my time
+there, I researched introductory statistics curriculum and student
+collaborations (thanks to Dr. Theobold!). I am currently pursuing my PhD in
+Statistics at UC Irvine, where I'm working to derive a new statistical
+methodology for biomarker research in the area of Alzheimer's disease. I hope to
+one day teach at a university where I can spread the joy of statistics with
+future generations of students.
+
+::: columns
+::: column
+
+### {{< fa lightbulb >}} Interests
+
+- R & Python
+- Statistics Education
+- Biomedical Research
+:::
+
+::: column
+### {{< fa graduation-cap >}} Education
+
+*Cal Poly*
+
+B.S. in Statistics & Minor in Data Science, 2024
+M.S. in Statistics, 2024
+:::
+:::
