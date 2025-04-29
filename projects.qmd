@@ -11,24 +11,68 @@ layout: grid
 
 ::: grid
 ::: g-col-4
+# {{< fa laptop-code size=lg >}} {.icon}
 
-# {{< fa comments size=lg >}} {.icon}
-
-#### Statistical communication
+#### Equitable Pair Programming
 
 ::: small
-We are examining both how statistics are communicated to the general public and how they may be best perceived.
+We are studying how instructors can create pair programming environments that
+support *every* student. 
 :::
 :::
 
 ::: g-col-4
-# {{< fa laptop-code size=lg >}} {.icon}
+
+# {{< fa pen-to-square size=lg >}} {.icon}
 
 #### Groupworthy Data Science Activities
 
-<!-- ::: small -->
-<!-- In the spirit of studying human data interaction, we are developing an R package that can be used to analyze R code in the **tidyverse** paradigm. -->
-<!-- ::: -->
+::: small
+We are creating a set of data science activities that are cognitively engaging
+and require multiple, diverse perspectives to complete. These activities can be
+integrated alongside pair programming! 
+:::
+:::
+
+::: g-col-4
+# {{< fa clipboard-list size=lg >}} {.icon}
+
+#### Increasing Cognitive Engagement in Surveys
+
+::: small
+This project is led by Otis Hunt, who is interested in exploring what survey
+options / structure is associated with students engaging more in the surveys
+their instructors provide. Otis was awarded the [2025 Frost Research Scholarship](https://cosam.calpoly.edu/prospective-students/frost-fund/frost-scholarship)
+to continue this research. 
+:::
+:::
+:::
+
+<!-- <i class="fa-solid fa-"></i> -->
+
+::: grid
+
+::: g-col-4
+# {{< fa brands r-project size=lg >}} {.icon}
+
+#### Introduction to R
+
+::: small
+We are developing a "baby R" curriculum which introduces students to R during 
+their first quarter at Cal Poly. The course has no computing pre-requisite. 
+:::
+:::
+
+::: g-col-4
+# {{< fa road size=lg >}} {.icon}
+
+#### Data science trajectory
+
+::: small
+We are interested in the pathways students take when learning data science 
+concepts and skills---how do concepts build on each other? What are the
+key stumbling blocks?
+:::
 :::
 
 ::: g-col-4
@@ -43,37 +87,5 @@ social identities (e.g., disciplinary identity). Jett presented on this
 research during the [2023 eCOTS Poster Presentations](Student Collaborative Experiences & Self-Perceptsions -- A Comparison Study of Complex Instruction).
 :::
 :::
-:::
-
-::: grid
-::: g-col-4
-# {{< fa clipboard-list size=lg >}} {.icon}
-
-#### Increasing Cognitive Engagement in Surveys
-
-::: small
-We are actively engaged in data analysis projects for members of the local Winston-Salem community. Currently, our focus is on data from the Reynolda House. We are helping the Reynolda House manage, analyse, and visualize their data.
-:::
-:::
-
-<!-- ::: g-col-4 -->
-<!-- # {{< fa laptop size=lg >}} {.icon} -->
-
-<!-- #### Shiny in the classroom -->
-
-<!-- ::: small -->
-<!-- We are developing shiny applications for the classroom setting. -->
-<!-- ::: -->
-<!-- ::: -->
-
-<!-- ::: g-col-4 -->
-<!-- # {{< fa chalkboard-teacher size=lg >}} {.icon} -->
-
-<!-- #### Data science pedagogy -->
-
-<!-- ::: small -->
-<!-- We are actively examining best practices in teaching data science, both in the classroom and via Massive Open Online Courses (MOOCs). -->
-<!-- ::: -->
-<!-- ::: -->
 :::
 :::
