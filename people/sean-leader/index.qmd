@@ -8,7 +8,7 @@ about:
     - icon: github
       href:  https://github.com/SPLeader
 title: Sean Leader
-subtitle: "Past Undergraduate Research Assistant"
+subtitle: "Past Master's Researcher"
 Researcher Since: 2023
 page-layout: full
 ---
