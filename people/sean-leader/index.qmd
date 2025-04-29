@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: featured.
+  image: featured.jpg
   links:
     - icon: envelope
       href: "mailto:spleader13@gmail.com"
